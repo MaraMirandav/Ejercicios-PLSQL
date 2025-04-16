@@ -1,5 +1,7 @@
 -- 6) Desarrollar una función que devuelva el número de años completos que hay entre dos fechas que se pasan como argumentos.
 SET SERVEROUTPUT ON
+
+--Función
 CREATE OR REPLACE FUNCTION cuantos_anios(p_fecha1 DATE, p_fecha2 DATE) RETURN NUMBER IS
     v_anios_completos NUMBER;
 BEGIN
@@ -8,6 +10,7 @@ BEGIN
 END;
 /
 
+-- Bloque anónimo de prueba:
 DECLARE
     v_anios NUMBER;
     v_fecha1 DATE := TO_DATE('28-04-2016','DD-MM-YYYY');

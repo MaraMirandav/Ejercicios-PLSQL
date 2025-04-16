@@ -1,5 +1,7 @@
 -- 2) Codificar un procedimiento que reciba una cadena y la visualice al revés.
 SET SERVEROUTPUT ON
+
+-- Procedimiento
 CREATE OR REPLACE PROCEDURE voltear_cadena (p_cadena VARCHAR2) IS
 v_cadena_volteada VARCHAR2(20) := '';
 v_cadena_aux VARCHAR2(1) := '';
@@ -14,4 +16,5 @@ BEGIN
 END;
 /
 
+-- Probando el funcionamiento del procedimiento:
 EXECUTE voltear_cadena('Ikigai')

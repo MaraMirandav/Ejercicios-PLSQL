@@ -1,5 +1,7 @@
 -- 1) Escribir un procedimiento que reciba dos números y visualice su suma.
 SET SERVEROUTPUT ON
+
+--Procedimiento
 CREATE OR REPLACE PROCEDURE suma (p_numero1 NUMBER, p_numero2 NUMBER) IS
     v_suma NUMBER := 0;
 BEGIN
@@ -8,4 +10,5 @@ BEGIN
 END;
 /
 
+-- Probando el funcionamiento del procedimiento
 EXECUTE suma(5,3);

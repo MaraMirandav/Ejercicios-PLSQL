@@ -10,7 +10,8 @@ BEGIN
 END;
 /
 
-EXECUTE anio_fecha(TO_DATE('18-01-1992','DD-MM-YYYY'))
+-- Probando el funcionamiento del procedimiento
+EXECUTE anio_fecha(TO_DATE('12-01-1992','DD-MM-YYYY'))
 
 -----------------------------------------------------------------------------------------------------------
 -- Ejercicio realizado como función:
@@ -22,10 +23,11 @@ BEGIN
 END;
 /
 
+-- Bloque anónimo de prueba:
 DECLARE
     anio NUMBER;
 BEGIN
-    anio := anio_fechas(TO_DATE('05-09-1994','DD-MM-YYYY'));
+    anio := anio_fechas(TO_DATE('02-09-1994','DD-MM-YYYY'));
     DBMS_OUTPUT.PUT_LINE('El año correspondiente a la fecha es: ' || TO_CHAR(anio));
 END;
 /

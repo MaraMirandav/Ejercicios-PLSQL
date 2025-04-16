@@ -1,6 +1,7 @@
 -- 4) Escribir un bloque PL/SQL que haga uso de la función anterior.
 SET SERVEROUTPUT ON
 
+-- Bloque anónimo para probar la función anio_fechas:
 DECLARE
     anio NUMBER;
 BEGIN

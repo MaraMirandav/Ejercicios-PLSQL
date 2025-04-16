@@ -1,5 +1,6 @@
 -- 7) Escribir una función que, haciendo uso de la función anterior devuelva los trienios que hay entre dos fechas. (Un trienio son tres años completos).
 
+-- Función
 CREATE OR REPLACE FUNCTION cuantos_trienios(p_fecha1 DATE, p_fecha2 DATE) RETURN NUMBER IS
     v_trienios NUMBER;
     v_anios_completos NUMBER;
@@ -10,6 +11,7 @@ BEGIN
 END;
 /
 
+-- Bloque anónimo de prueba:
 DECLARE
     v_trienios NUMBER;
     v_fecha1 DATE;
