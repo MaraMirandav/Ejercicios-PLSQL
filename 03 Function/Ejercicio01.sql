@@ -5,7 +5,7 @@ SET SERVEROUTPUT ON
 DECLARE
     anio NUMBER;
 BEGIN
-    anio := anio_fechas(TO_DATE('05-09-1994','DD-MM-YYYY'));
+    anio := anio_fechas(TO_DATE('18-09-1994','DD-MM-YYYY'));
     DBMS_OUTPUT.PUT_LINE('El año correspondiente a la fecha es: ' || TO_CHAR(anio));
 END;
 /
