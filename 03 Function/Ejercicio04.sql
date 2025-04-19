@@ -6,7 +6,7 @@ CREATE OR REPLACE FUNCTION cuantos_trienios(p_fecha1 DATE, p_fecha2 DATE) RETURN
     v_anios_completos NUMBER;
 BEGIN
     v_anios_completos := cuantos_anios(p_fecha1, p_fecha2); -- ocupando la función del ejercicio anterior
-    v_trienios := trunc(v_anios_completos / 3);
+    v_trienios := ABS(trunc(v_anios_completos / 3));
     RETURN v_trienios;
 END;
 /

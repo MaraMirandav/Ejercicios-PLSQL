@@ -93,4 +93,5 @@ BEGIN
 END;
 /
 
+-- Probando el funcionamiento del procedimiento
 EXECUTE RESUMEN_FINAL_EMPRESA;
