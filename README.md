@@ -34,7 +34,7 @@ La organización de carpetas corresponde al planteamiento del profesor y incluye
 - La estructura y la selección de ejercicios han sido establecidas por el profesor de la asignatura.  
 - Este repositorio tiene fines **educativos** y refleja el progreso en el aprendizaje de PLSQL durante el primer curso de DAM.
 
-## Reflexión sobre el prendizaje adquirido:
+## Reflexión sobre el aprendizaje adquirido:
 
 - Este proyecto no solo ha sido un trabajo académico, sino también una forma de documentar mi aprendizaje y evolución en bases de datos.  
 - Me ha permitido reforzar la lógica de programación y comprender que las bases de datos van mucho más allá de simples consultas: Son una herramienta poderosa para gestionar información.  
