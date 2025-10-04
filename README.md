@@ -36,5 +36,4 @@ La estructura y la selección de ejercicios han sido establecidas por el profeso
 ## Reflexión sobre el aprendizaje adquirido
 
 - Este proyecto no solo ha sido un trabajo académico, sino también una forma de documentar mi aprendizaje y evolución en bases de datos.
-- Me ha permitido reforzar la lógica de programación y comprender que las bases de datos van.
 - Me ha permitido reforzar la lógica de programación y comprender que las bases de datos van más allá del simple almacenamiento de datos, permitiendo automatizar procesos complejos y garantizar la integridad de la información.
